@@ -3,15 +3,15 @@ About portalocker-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/portalocker-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/WoLpH/portalocker
+Home: https://github.com/wolph/portalocker
 
-Package license: PSF-2.0
+Package license: BSD-3-Clause
 
-Summary: Portalocker is a library to provide an easy API to file locking.
+Summary: Cross-platform file locking, with Redis, PID-file and bounded-semaphore locks
 
-Development: https://github.com/WoLpH/portalocker
+Development: https://github.com/wolph/portalocker
 
-Documentation: http://portalocker.readthedocs.org
+Documentation: https://portalocker.readthedocs.io
 
 Current build status
 ====================
@@ -352,4 +352,5 @@ Feedstock Maintainers
 
 * [@sodre](https://github.com/sodre/)
 * [@tyrius02](https://github.com/tyrius02/)
+* [@wolph](https://github.com/wolph/)
 
