@@ -1,5 +1,5 @@
 {% set name = "portalocker" %}
-{% set version = "4.4.1" %}
+{% set version = "4.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 42fcacc417a91b9b90238ae70fa7a3955d7a8b1e93866cc4cd830034895e10f0
+  sha256: 7ac85bb2aa3c7873bf2ac72586fc6154afa4671ac786994a16617a6b7ccb3e5e
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
   host:
     - python
     - pip
-    - uv-build >=0.11,<0.13
+    - uv-build >=0.11,<1
   run:
     - python
     - pywin32  # [win]
